@@ -35,7 +35,6 @@ def add_supply_to_memorial_day(holiday_hash, supply)
   # add the second argument to the memorial day array
   holiday_hash[:winter].each do |holiday, decorations|
      decorations << supply
-    end
    end
 end
 
